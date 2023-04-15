@@ -105,7 +105,7 @@ Kather JN, Weis CA, Bianconi F, Melchers SM, Schad LR, Gaiser T, Marx A, Zollner
    ```sh
    (virtual-environment-name) pip install -r requirements.txt
    ```
-6. Run [rock_paper_scissors.ipynb ](https://github.com/FreckledMe/colorectal_histology/blob/main/colorectal_histology.ipynb)
+6. Run [colorectal_histology.ipynb ](https://github.com/FreckledMe/colorectal_histology/blob/main/colorectal_histology.ipynb)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
