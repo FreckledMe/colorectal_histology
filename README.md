@@ -1,5 +1,4 @@
 # colorectal_histology
- From catalog of tensorflow datasets
  <a name="readme-top"></a>
 
 
