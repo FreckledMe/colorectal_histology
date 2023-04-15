@@ -9,7 +9,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/FreckledMe/colorectal_histology">
-    <img src="images/c_h.png" alt="Logo" width="700" height="250">
+    <img src="images/logo.png" alt="Logo" width="700" height="250">
   </a>
 
 
