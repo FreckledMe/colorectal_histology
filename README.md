@@ -8,7 +8,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/FreckledMe/rock_paper_scissors">
+  <a href="https://github.com/FreckledMe/colorectal_histology">
     <img src="images/c_h.png" alt="Logo" width="700" height="250">
   </a>
 
@@ -106,7 +106,7 @@ Kather JN, Weis CA, Bianconi F, Melchers SM, Schad LR, Gaiser T, Marx A, Zollner
    ```sh
    (virtual-environment-name) pip install -r requirements.txt
    ```
-6. Run [rock_paper_scissors.ipynb ](https://github.com/FreckledMe/rock_paper_scissors/blob/main/colorectal_histology.ipynb)
+6. Run [rock_paper_scissors.ipynb ](https://github.com/FreckledMe/colorectal_histology/blob/main/colorectal_histology.ipynb)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
