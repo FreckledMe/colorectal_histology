@@ -113,9 +113,7 @@ Kather JN, Weis CA, Bianconi F, Melchers SM, Schad LR, Gaiser T, Marx A, Zollner
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-   Use [Streamlit](https://github.com/streamlit/streamlit) 
-
-   If you don't want to train the model, you can use my pre-trained [model](https://drive.google.com/file/d/1j8gmrk9MvvbP2mdhv2dH_3D0FPt-yxga/view?usp=share_link) 
+   Use [Streamlit](https://github.com/streamlit/streamlit)  
 
    ```sh 
    (virtual-environment-name)/streamlit run stream.py
