@@ -7,7 +7,10 @@ from tensorflow import keras
 import numpy as np
 from PIL import Image,ImageOps
 import tensorflow as tf
+import pandas as pd
+import altair as alt
 
+st.title('Colorectal cancer histology classifier')
 
 class_names = ['tumor','stroma','complex','lympho','debris','mucosa','adipose','empty']
 
@@ -29,4 +32,19 @@ with st.form("key1"):
 if button_check:
     with tf.device('/device:CPU:0'):
         model = keras.models.load_model('saved_model/model.04-0.53.h5')
-        st.text(class_names[int(np.argmax(model.predict(gray_img)))])
+        result = model.predict(gray_img)
+
+
+
+        st.title('Result')
+        data = pd.DataFrame({
+            'category' : class_names,
+            'value' : result[0]})
+        
+        chart = alt.Chart(data).mark_bar().encode(
+            x='category',
+            y='value',
+            color='category'
+        ).properties(width=400)
+
+        st.altair_chart(chart, use_container_width=True)

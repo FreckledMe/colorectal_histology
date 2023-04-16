@@ -120,7 +120,9 @@ Kather JN, Weis CA, Bianconi F, Melchers SM, Schad LR, Gaiser T, Marx A, Zollner
    ```
 Example result
 
-<img src="screen/stream.png">
+<img src="screen/scr1.png">
+
+<img src="screen/scr2.png">
 
    View loss and accuracy in per epoch via [Tensorboard](https://github.com/tensorflow/tensorboard)
    ```sh
